@@ -1,0 +1,95 @@
+ /* body {
+     background-color: #000;
+
+}  */
+
+ #container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 74%;
+    justify-content: space-evenly;
+    margin-left: 13%;
+    text-align: center;
+    color: #CF885B;
+    position: relative;
+    font-size: larger;
+ }
+ #remoove{
+    color: rgb(186, 69, 69);
+    cursor: pointer;
+  }
+ #shoping {
+    display: flex;
+    flex-wrap: wrap;
+    width: 74%;
+    justify-content: space-evenly;
+    margin-left: 13%;
+    text-align: center;
+    color: #CF885B;
+    position: relative;
+}
+
+ .img {
+     width: 356px;
+     height: 323px;
+ }
+ .img:hover {
+     border-style: solid;
+ }
+.size {
+     position: absolute;
+     z-index: 1;
+     color: #CF885B;
+     font-size: 191%;
+     margin-top: 2%;
+     margin-left: 2%;
+     opacity: 90%;
+     cursor: pointer;
+ }
+ #searchinp{
+    border: 1px solid #CF885B;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 10px 15px;
+    font-family: system-ui;
+    font-size: 22px;
+    line-height: 25px;
+    margin-left: 64%;
+    margin-top: 3%;
+    text-align: end;
+    color: #CF885B
+ }
+ #closeButton{
+    cursor: pointer;
+ }
+ .popup{
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #CF885B;
+    border: 1px solid #525151;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    color: #525151;
+    display: flex;
+    text-align: center;
+ }
+ #nop{
+    margin-left: -50%;
+    color: black;
+    font-size: initial;
+    font-family: system-ui;
+    font-weight: 100;
+ }
+ #m{
+    font-size: 27px;
+}
+#searchbtn{
+    color: #5d5454;
+    background-color: #CF885B;
+    font-size: 222%;
+}

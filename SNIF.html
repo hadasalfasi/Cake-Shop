@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="snif.css" />
+    <!-- <link rel="stylesheet" href="index.css" /> -->
+    <link rel="icon" href="גמורלוגו שחור.jpg">
+    <script src="./jquery-3.6.0.min.js"> </script>
+    <link href="fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet">
+    <title>סניפים</title>
+</head>
+
+<body>
+    <div id="nitoov">
+        <a href="mybascet.html">
+            <i class="fas fa-shopping-bag" id="m"><span id="nop"></span></i>
+        </a>
+        <div id="conect">התחברות</div>
+        <!-- <div id="out">התנתקות</div> -->
+        <div id="nitovr">
+            <div><a href="coursim.html">הטיפים שלנו</a></div>
+            <div><a href="cake.html">העוגה שלי</a></div>
+        </div>
+        <img id="logo" src="גמורלוגו שחור.jpg">
+        <div id="nitovl">
+            <div><a href="order.html">הזמנות</a> </div>
+            <div><a href="SNIF.html">סניפים</a></div>
+            <div><a href="index.html">דף הבית</a></div>
+          
+        </div>
+    </div>
+
+
+    <div id="connectFrom" style="display: none;">
+        <div id="close">X</div>
+        <h3>התחברות</h3><br>
+        <div id="buttons">
+            <button id="registerButton">הרשמה</button>
+            <button id="loginButton">התחברות</button>
+        </div>
+        <br>
+        <form id="registrationForm" style="display: none;">
+            <input type="text" class="formcontrol" id="firstname" placeholder="שם פרטי" required><br><br>
+            <input type="text" class="formcontrol" id="lastname" placeholder="שם משפחה"><br><br>
+            <input type="email" class="formcontrol" id="email" placeholder="אמייל" required><br><br>
+            <input type="password" class="formcontrol" id="password" placeholder="סיסמה" required>
+            <i id="psd" class="fas fa-eye-slash" onclick="togglePasswordVisibility()"></i> <br><br>
+            <input type="password" class="formcontrol" id="confirmPassword" placeholder="אימות סיסמא" required><br><br>
+            <button type="submit" id="submitBtn" disabled>התחברות</button>
+        </form>
+        <form id="loginForm" style="display: none;">
+            <input type="email" class="form-control" id="loginEmail" placeholder="אימייל" required>
+               <br>
+            <input type="password" class="form-control" id="loginPassword" placeholder="סיסמה" required><i
+                class="fas fa-eye-slash" onclick="togglePasswordVisibility2() " id="psd1"></i><br>
+            <button type="submit" id="loginBtn">Login</button>
+        </form>
+    </div>
+    <div id="out" style="display: none;">התנתקות</div>
+    
+
+
+
+    <div id="branches">
+        <div style="height: 100px;"></div>
+        <div class="d-flex">
+          <div class="branches d-flex flex-column">
+            <div class="mid">
+              <div class="p-2">
+                <a href="https://www.waze.com/he/live-map/directions/%D7%91%D7%99%D7%A1%D7%A7%D7%95%D7%98%D7%99-%D7%94%D7%99%D7%A8%D7%A7%D7%95%D7%9F-67-%D7%91%D7%A0%D7%99-%D7%91%D7%A8%D7%A7?utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location&to=place.w.22806849.228265098.69521&from=place.ChIJXaX1D6HSAhURtQvB7jEn2ZY">
+                <img src="waze.png"alt="waze" style="max-width: 40px;"></a>    
+              </div>
+              <div class="p-2">
+                <span style="font-weight: bold;">קניון רמות ירושלים, שד' גולדה מאיר 255<br></span>
+                <span>טל' 02-5606600    |    פתוח מ-23:00 09:30</span>
+              </div>
+              <div class="p-2" style="font-size: xx-large;">      
+                <i class="fas fa-wheelchair purple-text"></i>
+              </div>
+            </div>
+            <div class="line" ></div>
+    
+            <div class="mid">
+              <div class="p-2">
+                <a href="https://www.waze.com/he/live-map/directions/%D7%90%D7%95%D7%A8-%D7%A9%D7%A4%D7%99%D7%A5-%D7%91%D7%99%D7%99%D7%A7%D7%A8%D7%99-or-shpitz-bakery-%D7%91%D7%95%D7%92%D7%A8%D7%A9%D7%95%D7%91-3-%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91-%D7%99%D7%A4%D7%95?utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location&to=place.w.22806849.227871880.525777&from=place.ChIJXaX1D6HSAhURtQvB7jEn2ZY">
+                <img src="waze.png" alt="waze" style="max-width: 40px;"></a>    
+              </div>
+              <div class="purple-text p-2">
+                <span style="font-weight: bold;">קניון סנטר 1, ירמיהו 43 ירושלים<br></span>
+                <span>טל' 02-6506565    |    פתוח מ-21:00 09:30</span>
+              </div>
+              <div class="p-2" style="font-size: xx-large;">      
+                <i class="fas fa-wheelchair purple-text"></i>
+              </div>
+            </div>
+            <div class="line"></div>
+    
+            <div class="mid">
+              <div class="p-2">
+                <a href="https://www.waze.com/he/live-map/directions/%D7%A7%D7%A0%D7%99%D7%95%D7%9F-%D7%A2%D7%95%D7%A4%D7%A8-%D7%90%D7%93%D7%95%D7%9E%D7%99%D7%9D-%D7%93%D7%A8%D7%9A-%D7%A7%D7%93%D7%9D-5-%D7%9E%D7%A2%D7%9C%D7%94-%D7%90%D7%93%D7%95%D7%9E%D7%99%D7%9D?utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location&to=place.w.23134526.231345257.20967">
+                <img src="waze.png"alt="waze" style="max-width: 40px;"></a>    
+              </div>
+              <div class="purple-text p-2">
+                <span style="font-weight: bold;">מעלה אדומים, קניון עופר<br></span>
+                <span>טל' 050-6551818    |     פתוח מ-23:00 09:30</span>
+              </div>
+              <div class="p-2" style="font-size: xx-large;">      
+                <i class="fas fa-wheelchair purple-text"></i>
+              </div>
+            </div>
+            <div class="line" ></div>
+    
+            <div class="mid">
+              <div class="p-2">
+                <a href="https://www.waze.com/ul?utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">
+                <img src="waze.png" alt="waze" style="max-width: 40px;"></a>    
+              </div>
+              <div class="purple-text p-2">
+                <span style="font-weight: bold;">רבי עקיבא 76, בני ברק<br></span>
+                <span>טל' 03-6343477    |    פתוח מ-23:00 09:30</span>
+              </div>
+              <div class="p-2" style="font-size: xx-large;">      
+                <i class="fas fa-wheelchair purple-text"></i>
+              </div>
+            </div>
+            <div class="line" ></div>
+    
+            <div class="mid">
+              <div class="p-2">
+                <a href="https://www.waze.com/he/live-map/directions/il/%D7%9E%D7%97%D7%95%D7%96-%D7%94%D7%9E%D7%A8%D7%9B%D7%96/%D7%A4%D7%AA/%D7%94%D7%A8%D7%91-%D7%99%D7%A9%D7%A2%D7%99%D7%94%D7%95-%D7%9E%D7%A9%D7%95%D7%A8%D7%A8-11?navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location&to=place.ChIJnb5IGys0HRURwmsBbaI7Jik">
+                <img src="waze.png" alt="waze" style="max-width: 40px;"></a>    
+              </div>
+              <div class="purple-text p-2">
+                <span style="font-weight: bold;">פתח תקווה, הדר גנים, ישעיהו המשורר 11<br></span>
+                <span>טל' 058-7444148   |   פתוח מ-24:00 10:00</span>
+              </div>
+              <div class="p-2" style="font-size: xx-large;">      
+                <i class="fas fa-wheelchair purple-text"></i>
+              </div>
+            </div>
+            <div class="line" ></div>
+          </div>
+        </div>
+      </div>
+</body>
+<script src="order.js"></script>
+<script src="index1.js"></script>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="גמורלוגו שחור.jpg">
+    <link href="fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet">
+    <title>Cake&Desserts</title>
+</head>
+
+<body>
+    <div id="nitoov">
+        <a href="mybascet.html">
+            <i class="fas fa-shopping-bag" id="m"><span id="nop"></span></i>
+        </a>
+        <div id="conect">התחברות</div>
+        <!-- <div id="out">התנתקות</div> -->
+        <div id="nitovr">
+            <div><a href="coursim.html">הטיפים שלנו</a></div>
+            <div><a href="cake.html">העוגה שלי</a></div>
+        </div>
+        <img id="logo" src="גמורלוגו שחור.jpg">
+        <div id="nitovl">
+            <div><a href="order.html">הזמנות</a> </div>
+            <div><a href="SNIF.html">סניפים</a></div>
+            <div><a href="index.html">דף הבית</a></div>
+        </div>
+    </div>
+    
+
+
+    <div id="connectFrom" style="display: none;">
+        <div id="close">X</div>
+        <h3>התחברות</h3><br>
+        <div id="buttons">
+            <button id="registerButton">הרשמה</button>
+            <button id="loginButton">התחברות</button>
+        </div>
+        <br>
+        <form id="registrationForm" style="display: none;">
+            <input type="text" class="formcontrol" id="firstname" placeholder="שם פרטי" required><br><br>
+            <input type="text" class="formcontrol" id="lastname" placeholder="שם משפחה"><br><br>
+            <input type="email" class="formcontrol" id="email" placeholder="אמייל" required><br><br>
+            <input type="password" class="formcontrol" id="password" placeholder="סיסמה" required>
+            <i id="psd" class="fas fa-eye-slash" onclick="togglePasswordVisibility()"></i> <br><br>
+            <input type="password" class="formcontrol" id="confirmPassword" placeholder="אימות סיסמא" required><br><br>
+            <button type="submit" id="submitBtn" disabled>התחברות</button>
+        </form>
+        <form id="loginForm" style="display: none;">
+            <input type="email" class="form-control" id="loginEmail" placeholder="אימייל" required>
+                <br>
+            <input type="password" class="form-control" id="loginPassword" placeholder="סיסמה" required><i
+                class="fas fa-eye-slash" onclick="togglePasswordVisibility2() " id="psd1"></i><br>
+            <button type="submit" id="loginBtn">Login</button>
+        </form>
+    </div>
+    <div id="out" style="display: none;" >התנתקות</div>
+    <p><span id="greeting"></span></p>
+    <script src="index1.js"></script>
+</body>

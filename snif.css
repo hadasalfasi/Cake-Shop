@@ -1,0 +1,30 @@
+body {
+    background-color: #000;
+    opacity: 90%;
+    font-family: system-ui;
+}
+.branches{
+    background-color: #cf885b;
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.mid{
+    display: flex;
+    width: 50;
+    width: 50%;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 26%;
+    padding: 3%;
+}
+.line{
+    height: 5px;
+    background-color: #000000;
+}
+#m{
+    font-size: 27px;
+}

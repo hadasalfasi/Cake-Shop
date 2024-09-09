@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="order.css" />
+  <link rel="stylesheet" href="myBasket.css" />
+  <link rel="icon" href="גמורלוגו שחור.jpg">
+  <link href="fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet">
+  <script src="./jquery-3.6.0.min.js"> </script>
+  <title>סל הקניות שלי</title>
+</head>
+
+<body>
+  <div id="nitoov">
+    <a href="mybascet.html">
+      <i class="fas fa-shopping-bag" id="m"><span id="nop"></span></i>
+    </a>
+    <div id="conect">התחברות</div>
+    <!-- <div id="out">התנתקות</div> -->
+    <div id="nitovr">
+      <div><a href="coursim.html">הטיפים שלנו</a></div>
+      <div><a href="cake.html">העוגה שלי</a></div>
+    </div>
+    <img id="logo" src="גמורלוגו שחור.jpg">
+    <div id="nitovl">
+      <div><a href="order.html">הזמנות</a> </div>
+      <div><a href="SNIF.html">סניפים</a></div>
+      <div><a href="index.html">דף הבית</a></div>
+
+    </div>
+  </div>
+
+
+  <div id="connectFrom" style="display: none;">
+    <div id="close">X</div>
+    <h3>התחברות</h3><br>
+    <div id="buttons">
+      <button id="registerButton">הרשמה</button>
+      <button id="loginButton">התחברות</button>
+    </div>
+    <br>
+    <form id="registrationForm" style="display: none;">
+      <input type="text" class="formcontrol" id="firstname" placeholder="שם פרטי" required><br><br>
+      <input type="text" class="formcontrol" id="lastname" placeholder="שם משפחה"><br><br>
+      <input type="email" class="formcontrol" id="email" placeholder="אמייל" required><br><br>
+      <input type="password" class="formcontrol" id="password" placeholder="סיסמה" required>
+      <i id="psd" class="fas fa-eye-slash" onclick="togglePasswordVisibility()"></i> <br><br>
+      <input type="password" class="formcontrol" id="confirmPassword" placeholder="אימות סיסמא" required><br><br>
+      <button type="submit" id="submitBtn" disabled>התחברות</button>
+    </form>
+    <form id="loginForm" style="display: none;">
+      <input type="email" class="form-control" id="loginEmail" placeholder="אימייל" required>
+      <br>
+      <input type="password" class="form-control" id="loginPassword" placeholder="סיסמה" required><i
+        class="fas fa-eye-slash" onclick="togglePasswordVisibility2() " id="psd1"></i><br>
+      <button type="submit" id="loginBtn">Login</button>
+    </form>
+  </div>
+  <div id="out" style="display: none;">התנתקות</div>
+
+  <h1 id="h1" style="display: none;">סל הקניות שלי</h1>
+
+  <div id="salnone" style="display: flex;">
+    <span id="empty">:( הסל שלך ריק</span>
+    <img src="עוגות/basce=at.png" id="photo" width="25%" height="25%">
+  </div>
+  <br>
+  <div id="side" style="display: none;">
+    <div id="shoping"></div>
+    <br><br>
+    <div id="sum" style="display: none;">
+      <span class="a1">:מספר המוצרים בהזמנה</span>
+      <div id="numproducts" class="a1"></div>
+       <span class="a1">:סך הכל</span>
+      <div id="allsum" class="a1"> </div>
+     
+    </div>
+
+  </div>
+  <br>
+  <div id="under">
+    <div id="topay" style="display: none;">לתשלום</div>
+    <a id="homepage" href="order.html">חזרה</a>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br />
+
+  <div id="formToPay" style="display: none">
+    <form onsubmit="onSub(event)">
+      <h1 class="h7">!שלום וברכה</h1>
+      <h1 class="h7">...תודה שבחרתם בנו</h1>
+      <label>הכנס שם פרטי</label>
+      <input type="text" id="firstname" class="inputt" placeholder="שם פרטי" required />
+      <label>הכנס שם משפחה</label>
+      <input type="text" id="lastname" class="inputt" placeholder="שם משפחה" required />
+      <label>הכנס מספר טלפון </label>
+      <input type="tel" id="phone" class="inputt" placeholder="000-0000000" required />
+      <label>הכנס כתובת מייל</label>
+      <input type="email" id="email" class="inputt" placeholder="hello@gmail.com" required />
+      <label>הכנס כתובת למשלוח</label>
+      <input type="text" id="address" class="inputt" placeholder="כתובת" required />
+      <label>הכנס מספר אשראי </label>
+      <input type="number" id="creditcard" class="inputt" placeholder="0000-0000-0000-0000" required />
+      <label>הכנס תוקף</label>
+      <input type="number" id="until" class="inputt" placeholder="00/00" required />
+      <label>cvv</label>
+      <input type="number" id="threeNumber" class="inputt" placeholder="000" required />
+
+      <button type="submit"  id="ok">אישור</button>
+    </form>
+  </div>
+  <!-- <div id="open"></div> -->
+
+  <script src="mybascate.js"></script>
+  <script src="order.js"></script>
+  <script src="index1.js"></script>
+
+</body>
+
+</html>

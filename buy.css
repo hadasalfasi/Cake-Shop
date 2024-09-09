@@ -1,0 +1,22 @@
+#end{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #cf885b;
+}
+body{
+    background-color: black;
+    font-family: system-ui;
+
+}
+#contineu{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #cf885b;
+    border-style: solid;
+    TEXT-ALIGN: CENTER;
+    WIDTH: 29%;
+    MARGIN-LEFT: 35%;
+}

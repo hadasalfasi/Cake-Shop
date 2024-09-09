@@ -1,0 +1,277 @@
+body {
+    background-color: #000;
+    opacity: 90%;
+    font-family: system-ui;
+}
+
+a {
+    text-decoration: none;
+    color: #cd865c;
+}
+
+#nitoov {
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-around;
+    color: #cd865c;
+    font-size: larger;
+    margin-top: 4.5%;
+    width: 82%;
+}
+#nop{
+    margin-left: -50%;
+    color: black;
+    font-size: initial;
+    font-family: system-ui;
+    font-weight: 100;
+ }
+
+
+@keyframes c {
+    0% {
+        font-size: large;
+    }
+
+    50% {
+        font-size: larger;
+        font-weight: bold;
+    }
+}
+
+#nitovr {
+   
+    width: 22%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nitovl {
+    
+    width: 23%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -1%;
+}
+/* .fas fa-shopping-bag{
+    font-size: 27px;
+} */
+
+#logo {
+    width: 25%;
+    margin-top: -47.5px;
+}
+
+#conect {
+   
+    margin-right: 11%;
+    animation: c 2s infinite;
+    width: 10%;
+    cursor: pointer;
+    font-size: larger;
+}
+
+#out{
+    color: #cd865c;
+    width: 10%;
+    cursor: pointer;
+    font-size: larger;
+    margin-left: 4%;
+}
+#connectFrom {
+    color: #cd865c;
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: white;
+}
+.ab{
+    display: flex;
+}
+#psd{
+    /* margin-right: 25%; */
+    cursor: pointer;
+}
+
+#close {
+    cursor: pointer;
+}
+#registerButton{
+    font-size: 27px;
+    line-height: 35px;
+    background: #CF885B;
+    border-radius: 0;
+    min-height: 50px;
+    display: block;
+    margin-right: auto;
+    cursor: pointer;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    font-family: system-ui;
+}
+#loginBtn{
+    font-size: 27px;
+    line-height: 35px;
+    background: #CF885B;
+    border-radius: 0;
+    min-height: 50px;
+    display: block;
+    margin-right: auto;
+    cursor: pointer;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-family: system-ui;
+}
+
+#submitBtn{
+    font-size: 27px;
+    line-height: 35px;
+    background: #CF885B;
+    border-radius: 0;
+    min-height: 50px;
+    display: block;
+    margin-right: auto;
+    cursor: pointer;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-family: system-ui;
+}
+#registerButton{
+    font-size: 27px;
+    line-height: 35px;
+    background: #CF885B;
+    border-radius: 0;
+    min-height: 50px;
+    display: block;
+    margin-right: auto;
+    cursor: pointer;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    font-family: system-ui;}
+
+#loginButton{
+    font-size: 27px;
+    line-height: 35px;
+    background: #CF885B;
+    border-radius: 0;
+    min-height: 50px;
+    display: block;
+    margin-right: auto;
+    cursor: pointer;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    font-family: system-ui;
+}
+#greeting{
+    color: #cd865c;
+    margin-left: 45%;
+    font-size: xx-large;
+    font-weight: 300;
+}
+label {
+    margin-left: 27%;
+}
+
+.formcontrol {
+    border: 1px solid #CF885B;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 10px 15px;
+    font-family: system-ui;
+    font-size: 22px;
+    line-height: 25px;
+    color: #787878;
+    text-align: end;
+    /* //z-index: 3; */
+}
+.form-control{
+    
+    /* z-index: 3; */
+    border: 1px solid #CF885B;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 10px 15px;
+    font-family: system-ui;
+    font-size: 22px;
+    line-height: 25px;
+    color: #787878;
+    text-align: end; 
+}
+
+
+#buttons{
+    width: 50%;
+    display: flex;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #CF885B;
+}
+#pay{
+    border: 1px solid #CF885B;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 10px 15px;
+    font-family: system-ui;
+    font-size: 22px;
+    line-height: 25px;
+    margin-left: 56%;
+}
+#homepage{
+    border: 1px solid #CF885B;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 10px 15px;
+    font-family: system-ui;
+    font-size: 22px;
+    line-height: 25px;
+}
+#under{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    direction: rtl;
+}
+.buut{
+    border: 1px solid #CF885B;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 8px 8px;
+    font-family: system-ui;
+    font-size: 14px;
+    line-height: 10px;
+    color: #CF885B;
+    position: absolute;
+    z-index: 1;
+    margin-top: 2%;
+    margin-left: 2%;
+    opacity: 90%;
+    cursor: pointer;
+}

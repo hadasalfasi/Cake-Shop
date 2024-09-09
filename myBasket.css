@@ -1,0 +1,138 @@
+body{
+    color:#CF885B;
+}
+/* #side{
+    margin-left: 45%;
+} */
+#topay{
+    border: 1px solid #CF885B;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 10px 15px;
+    font-family: system-ui;
+    font-size: 22px;
+    line-height: 25px;
+    cursor: pointer;
+}
+.order {
+    border: 0px solid #ffffff;
+    background-color: #fddfc5;
+    padding: 5px;
+    font-size: 25px;
+    padding: 5px 45px 5px 45px;
+    margin-top: 63px;
+    border-radius: 7px;
+    letter-spacing: 1.5px;
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    border: 1px solid;  
+}
+.div2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color: #CF885B;
+    cursor: pointer;
+}
+
+.inputt {
+    border: 1px solid #CF885B;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 10px 15px;
+    font-family: system-ui;
+    font-size: 22px;
+    line-height: 25px;
+    margin-left: 64%;
+    margin-top: 3%;
+    text-align: end;
+    color: #CF885B;
+    margin-left: 0%;
+}
+
+.h7 {
+    font-size: 35px;
+    font-family: system-ui;
+    text-align: center;
+}
+label{
+    margin-left: 1%;
+    font-size: larger;
+    margin-top: 2%;
+   
+}
+#salnone{
+        margin-left: 46%;
+    margin-top: 8%;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+}
+.a1{
+    text-align: center;
+    font-size: x-large;
+    font-family: system-ui;
+    margin-left: 2%;
+}
+
+span{
+    margin-left: 41%;
+}
+
+.ok{
+    padding: 1%;
+    border-style: solid;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 134%;
+    margin-left: 1%;
+}
+#empty{
+    margin-left: -12%;
+    font-weight: bold;
+    font-size: 160%;
+}
+#photo{
+margin-left: -5%;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color: #CF885B;
+    cursor: pointer;
+    justify-content: space-around;
+    
+}
+#formToPay{
+    display: flex;
+    justify-content: space-around;
+}
+
+#ok{
+    padding: 1%;
+    border-style: solid;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 134%;
+    background: black;
+    color: #cf885B;
+    border-color: #cf885B;
+}
+#side{
+    display: flex;
+    flex-wrap: wrap;
+}
+#sum{
+    margin-top: 5%;
+    border-style: solid;
+    border-color: #cf885B;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-bottom: 2%;
+   
+}

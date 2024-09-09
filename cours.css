@@ -1,0 +1,25 @@
+.video{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    margin-left:  30%;
+}
+.vd{
+    font-family: system-ui;
+    color: #CF885B;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    font-size: 196%;
+}
+#nop{
+    margin-left: -50%;
+    color: black;
+    font-size: initial;
+    font-family: system-ui;
+    font-weight: 100;
+ }
+ #m{
+    font-size: 27px;
+}
